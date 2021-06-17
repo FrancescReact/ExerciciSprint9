@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import SideBar from './components/SideBar';
-import RecommendedVideos from './components/RecommendedVideos';
+import Header from './Components/Header/header';
+import SideBar from './Components/SideBar/sidebar';
+import RecommendedVideos from './Components/RecommendedVideos';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 function App() {
